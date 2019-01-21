@@ -1,11 +1,11 @@
 from jnpr.junos import Device
 from jnpr.junos.utils.scp import SCP
 
-host = '192.168.2.117'
-user = 'root'
+host = '192.168.2.2'
+user = 'juniper'
 passwd = 'Juniper'
 remote_path='/var/tmp'
-file='/Users/dhoutz/Downloads/vmx-bundle-17.4R2.4.tgz'
+file='hello_world.txt'
 
 dev = Device(host=host, user=user, password=passwd)
 

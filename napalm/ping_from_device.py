@@ -1,7 +1,7 @@
 from napalm import get_network_driver
 from pprint import pprint
 
-host = '192.168.2.117'
+host = '192.168.2.2'
 user = 'juniper'
 passwd = 'Juniper'
 host_to_ping = '8.8.8.8'

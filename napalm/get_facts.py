@@ -1,7 +1,7 @@
 from napalm import get_network_driver
 from pprint import pprint
 
-host = '192.168.2.117'
+host = '192.168.2.2'
 user = 'juniper'
 passwd = 'Juniper'
 
@@ -14,4 +14,4 @@ if device.is_alive():
     print('Connection successful!')
     pprint(device.get_facts())
 else:
-    print 'Device is unreachable!'
+    print('Device is unreachable!')
